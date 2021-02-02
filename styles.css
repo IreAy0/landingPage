@@ -1,0 +1,78 @@
+@font-face {
+    font-family:'arialRoundBold';
+    src: url('font/ARLRDBD.ttf') format('truetype');
+  }
+p{
+      font-family: "myFirstFont";
+  }
+  a{
+      color: black;
+  }
+  a:hover{
+      color: black;
+  }
+  body{
+      max-width: 1960px;
+  }
+  .navbar .nav-link {
+      text-transform: uppercase;
+      font-family:Roboto;
+      font-size: 0.9rem;
+      color: black;
+      
+  }
+  .navbar-toggler-icon {
+    display: inline-block;
+    width: 1.8em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.navbar-toggler:focus{
+outline: none !important;
+}
+  .line{
+      display: flex;
+      align-items: center;
+  }
+  .line svg{
+      height: 1rem;
+      width: 1rem;
+      color: black;
+  }
+.cta{
+    background-image: url('./images/banner.png') ;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px;
+   width: auto;
+}
+.form-tabs{
+    height: 350px;
+    width: 400px;
+    border-radius: 2rem;
+   
+   
+    margin-top: 7rem;
+}
+.form-tabs .nav-tabs{
+    background-color: #A1A1A1;
+    color:black
+}
+.nav-tabs .nav-link {
+    margin-bottom: -1px;
+    border: none;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+ 
+}
+.nav-tabs  {
+   
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.nav-tabs .nav-item:nth-of-type(2){
+width: 66.8%;
+}
