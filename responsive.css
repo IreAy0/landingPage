@@ -48,3 +48,18 @@
         width: 100%;
     }
   }
+
+  @media (min-width: 768px){
+    .form-tabs{
+        height: 350px;
+        width: 400px;
+        border-radius: 2rem;
+       
+       
+        margin-top: 7rem;
+    }
+    .nav-tabs .nav-item:nth-of-type(2){
+        width: 66.8%;
+        }
+  }
+ 
