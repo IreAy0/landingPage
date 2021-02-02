@@ -90,3 +90,6 @@ outline: none !important;
       border-bottom: 2px solid #a1a1a1;
         box-shadow: none;
     }
+    .form-check-input:focus{
+        box-shadow: none;
+    }

@@ -112,19 +112,19 @@
             <div class="container">
                 <div class=" row">
                     <div class="col-md-6 col-12">
-                        <div class="bg-white form-tabs">
+                        <div class="bg-white shadow-lg form-tabs">
                             <ul class="nav nav-tabs text-dark" id="myTab" role="tablist">
                                 <li class="nav-item" role="presentation">
                                   <a class="nav-link px-4 active" id="home-tab" data-bs-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Registration</a>
                                 </li>
                                 <li class="nav-item" role="presentation">
-                                  <a class="nav-link px-4" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+                                  <a class="nav-link px-4" id="profile-tab" data-bs-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Login</a>
                                 </li>
                                 
                               </ul>
                               <div class="tab-content" id="myTabContent">
                                 <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                                <form action="" class="px-4 mt-3">
+                                <form action="" class="px-4 mt-3 pb-4">
                                   <div class="mb-3">
                                   
                                     <input type="text"name="first_name" class="form-control" id="exampleFormControlInput1" placeholder="First Name">
@@ -164,11 +164,64 @@ personal data processing by  RallyTrade as stated in Privacy Policy.
                                       </label>
                                     </div>
                                   </div>
+                                 <div class="mb-3 row justify-content-center justify-content-md-start px-4 checks">
                                  
+                                  <div class="form-check col-5 col-md-2 my-3">
+                                    <input class="form-check-input" type="radio" value="value1" name="group1" >
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                      Demo
+                                    </label>
+                                  </div>
+                                  <div class="form-check col-5 col-md-2  my-3">
+                                    <input class="form-check-input" type="radio" value="value1" name="group1" >
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                      Real 
+                                    </label>
+                                  </div> 
+                                  <div class="form-check col-5 col-md-2 ml-md-auto  my-3">
+                                    <input class="form-check-input" type="radio" value="value1" name="group2"id="flexRadioDefault2" >
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                      USD 
+                                    </label>
+                                  </div>
+                                   <div class="form-check col-5 col-md-2  my-3">
+                                    <input class="form-check-input" type="radio" nvalue="value1" name="group2" id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                      NGN
+                                    </label>
+                                  </div>
+                                 </div>
+
+                                 <div class="my-3 text-center">
+                                  <button type="button" class="btn btn-success " style="border-radius: .8rem; background:#00A651;text-transform: uppercase;">Open Account</button>
+                                 </div>
                                 </form>
                                 
                                 </div>
-                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+                                <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"> <form action="" class="px-4 mt-3 pb-4">
+                                 
+                                  <div class="mb-3">
+                                   
+                                    <input type="text" name="email" class="form-control" id="exampleFormControlInput3" placeholder="Email">
+                                  </div>
+                                  <div class="mb-3">
+                                   
+                                    <input type="password" name="password" class="form-control" id="exampleFormControlInput4" placeholder="Password">
+                                  </div>
+                                 
+                                  <div class="mb-3">
+                                    <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                                      <label class="form-check-label lh-sm fs-6" for="flexCheckChecked">
+                                      Remember
+                                      </label>
+                                    </div>
+                              
+
+                                 <div class="my-3 text-center">
+                                  <button type="button" class="btn btn-success " style="border-radius: .8rem; background:#00A651;text-transform: uppercase;">Login</button>
+                                 </div>
+                                </form></div>
                                 </div>
                         </div>
 

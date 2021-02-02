@@ -51,15 +51,18 @@
 
   @media (min-width: 768px){
     .form-tabs{
-        height: 350px;
-        width: 400px;
+        /* height: 350px; */
+        width: 550px;
         border-radius: 2rem;
        
        
         margin-top: 7rem;
     }
     .nav-tabs .nav-item:nth-of-type(2){
-        width: 66.8%;
+        width: 75.9%;
         }
+    .checks .ml-md-auto{
+        margin-left:auto;
+    }
   }
  
