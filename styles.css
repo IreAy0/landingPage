@@ -2,9 +2,7 @@
     font-family:'arialRoundBold';
     src: url('font/ARLRDBD.ttf') format('truetype');
   }
-p{
-      font-family: "myFirstFont";
-  }
+
   a{
       color: black;
   }
@@ -12,7 +10,8 @@ p{
       color: black;
   }
   body{
-      max-width: 1960px;
+      /* max-width: 1960px; */
+      font-family:Roboto;
   }
   .navbar .nav-link {
       text-transform: uppercase;
@@ -45,8 +44,8 @@ outline: none !important;
 .cta{
     background-image: url('./images/banner.png') ;
     background-repeat: no-repeat;
-    background-position: center;
-    height: 400px;
+    /* background-position: center; */
+    /* height: 400px; */
    width: auto;
 }
 .form-tabs{
@@ -73,9 +72,9 @@ outline: none !important;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
 }
-.nav-tabs .nav-item:nth-of-type(2){
-    width: 58.5%;
-    }
+/* .nav-tabs .nav-item:nth-of-type(2){
+    width: 58.2%;
+    } */
 .form-control{
     border-radius:0;
     border-bottom: 1px solid #ced4da;
@@ -93,3 +92,37 @@ outline: none !important;
     .form-check-input:focus{
         box-shadow: none;
     }
+    
+.nav-scroller {
+    position: relative;
+    z-index: 2;
+    height: 2.75rem;
+    overflow-y: hidden;
+  }
+  
+  .nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: -1px;
+    overflow-x: auto;
+    color: rgba(255, 255, 255, .75);
+    text-align: center;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+  }
+  .perks h6{
+      line-height: 2;
+      font-weight: 400;
+  }
+  .info .line{
+      justify-content: center;
+  }
+  .address  h6{
+    line-height: 1;
+   
+}
+.address  div{
+   
+    margin-bottom: 1.5rem;
+}

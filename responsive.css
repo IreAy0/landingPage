@@ -27,6 +27,10 @@
     right: 2.5%;
     width: 95vw;
    }
+   .awards nav{
+       position: absolute;
+       bottom: -15%;
+   }
   }
   @media (max-width: 770px){
     .navbar-collapse .line{
@@ -58,11 +62,20 @@
        
         margin-top: 7rem;
     }
-    .nav-tabs .nav-item:nth-of-type(2){
-        width: 75.9%;
-        }
+    /* .nav-tabs .nav-item:nth-of-type(2){
+        width: 75.5%;
+        } */
     .checks .ml-md-auto{
         margin-left:auto;
+    }
+    .address  div{
+        text-align: right;
+        margin-bottom: 1.5rem;
+   
+    }
+    .info .container{
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
   }
  
