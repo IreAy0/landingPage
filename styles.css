@@ -31,6 +31,7 @@
 }
 .navbar-toggler:focus{
 outline: none !important;
+box-shadow: none;
 }
   .line{
       display: flex;
@@ -50,7 +51,7 @@ outline: none !important;
 }
 .form-tabs{
     /* height: 350px; */
-    width: 320px;
+    /* width: 320px; */
     border-radius: 2rem;
    
    
@@ -114,15 +115,27 @@ outline: none !important;
   .perks h6{
       line-height: 2;
       font-weight: 400;
+      font-size: .9rem;
   }
   .info .line{
       justify-content: center;
   }
   .address  h6{
     line-height: 1;
+    font-size: .9rem;
    
 }
 .address  div{
    
     margin-bottom: 1.5rem;
+}
+.top-awards .nav-link, .awards .nav-link{
+    display: flex;
+    flex-direction: column;
+    /* flex: 50%; */
+    text-align: center;
+    flex-basis: 150px;
+}
+.awards .nav-link img{
+    height: 40px;
 }
