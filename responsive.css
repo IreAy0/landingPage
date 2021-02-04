@@ -111,7 +111,7 @@ padding-left: 3rem!important;
     align-items: center;
 }
        
-    }
+    
     .awards .nav-link img{
         height: 50px;
     }
@@ -119,8 +119,6 @@ padding-left: 3rem!important;
      font-size: .9rem;
     }
    
-    /* .awards{
-        position: absolute;
-    } */
-  }
+}
+  
  
