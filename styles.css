@@ -157,5 +157,5 @@ box-shadow: none;
     height: 40px;
 }
 header .nav{
-    z-index: 2;
+    z-index: 0;
 }
