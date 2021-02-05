@@ -61,6 +61,11 @@ box-shadow: none;
    
     margin: 2rem auto;
 }
+.nav-tabs .nav-link.active {
+    color: #495057;
+    background-color: #fff;
+    border-bottom-color: transparent !important ;
+}
 .form-tabs > *{
     font-size: .8rem;
 }
