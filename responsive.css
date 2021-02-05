@@ -46,12 +46,7 @@ padding-left: 3rem!important;
     .navbar-collapse .navbar-nav{
         width: 100%;
     }
-    /* .awards .nav-link{
-        display: flex;
-        flex-direction: column;
-        flex: initial;
-        text-align: center;
-    } */
+  
   }
 
   @media screen and  (min-width: 768px){
