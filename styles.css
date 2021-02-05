@@ -12,6 +12,10 @@
   body{
       /* max-width: 1960px; */
       font-family:Roboto;
+      overflow-x: hidden;
+  }
+  .f-8{
+      font-size: .8rem;
   }
   .navbar .nav-link {
       text-transform: uppercase;
@@ -43,7 +47,7 @@ box-shadow: none;
       color: black;
   }
 .cta{
-    background-image: url('./images/banner.png') ;
+    /* background-image: url('./images/banner.png') ; */
     background-repeat: no-repeat;
     /* background-position: center; */
     /* height: 400px; */
@@ -53,9 +57,12 @@ box-shadow: none;
     /* height: 350px; */
     /* width: 320px; */
     border-radius: 2rem;
-   
+  
    
     margin: 2rem auto;
+}
+.form-tabs > *{
+    font-size: .8rem;
 }
 .form-tabs .nav-tabs{
     background-color: #A1A1A1;
@@ -93,7 +100,10 @@ box-shadow: none;
     .form-check-input:focus{
         box-shadow: none;
     }
-    
+    input::placeholder {
+        color: red;
+        font-size: .7rem;
+      }
 .nav-scroller {
     position: relative;
     z-index: 2;

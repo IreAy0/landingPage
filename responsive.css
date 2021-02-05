@@ -6,7 +6,7 @@
          
          margin-left: 2rem;
          margin-right: 0;
-          margin-top: 5rem;
+          /* margin-top: 5rem; */
       }
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 0rem;
@@ -19,32 +19,17 @@ padding-left: 3rem!important;
 }
 @media (min-width: 1200px){
 .container, .container-lg, .container-md, .container-sm, .container-xl {
-    max-width: 1400px;
+    max-width: 1920px;
 }}
-@media (max-width: 480px) {
-   .logo img{
-       width: 180px;
-   }
-   .navbar-collapse .line{
-       display: none;
-   }
-   .navbar-collapse li{
-       padding: .5rem .5rem;
-       border-bottom: 1px solid #aaa;
-   }
-   .navbar-collapse{
-    position: absolute;
-    background: white;
-    top: 100%;
-    right: 2.5%;
-    width: 95vw;
-   }
-   
-  }
+
   @media (max-width: 770px){
-      
+   
     .navbar-collapse .line{
         display: none;
+    }
+    .cta .banner-img{
+        height: 30vh;
+        object-fit: cover;
     }
     .navbar-collapse li{
         padding: .5rem .5rem;
@@ -70,17 +55,20 @@ padding-left: 3rem!important;
   }
 
   @media (min-width: 768px){
+      .cta .container-fluid{
+        margin-top: -18rem;
+      }
     .form-tabs{
         /* margin-left: 5rem; */
-          width: 350px;
+          width: 400px;
           border-radius: 2rem;
          
          margin-left: auto;
          margin-right: auto;
-          margin-top: 5rem;
+          /* margin-top: 5rem; */
       }
       .top-awards{
-        margin-top: 50%;
+        margin-top: 20rem;
         margin-bottom: 7%;
     
       }
@@ -113,12 +101,39 @@ padding-left: 3rem!important;
        
     
     .awards .nav-link img{
-        height: 50px;
+        height: 45px;
     }
     .awards .nav-link span{
-     font-size: .9rem;
+     font-size: .8rem;
     }
    
 }
   
- 
+@media (max-width: 600px) {
+    .cta .container-fluid{
+        margin-top: -25rem;
+      }
+   
+    .cta .banner-img{
+        height: 50vh;
+        object-fit: cover;
+    }
+   .logo img{
+       width: 180px;
+   }
+   .navbar-collapse .line{
+       display: none;
+   }
+   .navbar-collapse li{
+       padding: .5rem .5rem;
+       border-bottom: 1px solid #aaa;
+   }
+   .navbar-collapse{
+    position: absolute;
+    background: white;
+    top: 100%;
+    right: 2.5%;
+    width: 95vw;
+   }
+   
+  }
